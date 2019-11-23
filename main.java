@@ -9,6 +9,7 @@ public class main {
     private static void mult(){
         int x = getX();
         int y = getY();
+	x=x*x;
         print(x, y);
     }
 
