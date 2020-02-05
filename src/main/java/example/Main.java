@@ -11,9 +11,9 @@ public class Main {
 
 }
 
-class Professor {
+class Career {
   
-  public Professor() {
+  public Career() {
     System.out.println("Class Professor");
   }
   
@@ -23,7 +23,7 @@ class Professor {
 
 }
 
-class Field extends Professor {
+class Field extends Career {
 
   public Field() {
     System.out.println("Class Field");
