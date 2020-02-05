@@ -35,6 +35,10 @@ class Child1 extends Parent1 {
     return getNum();
   } 
 
+  public int sendNum() {
+    return 0;
+  }
+
 }
 
 class Child2 {
