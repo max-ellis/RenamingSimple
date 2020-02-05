@@ -23,9 +23,9 @@ class Career {
 
 }
 
-class Field extends Career {
+class Subject extends Career {
 
-  public Field() {
+  public Subject() {
     System.out.println("Class Field");
   }
 
@@ -35,7 +35,7 @@ class Field extends Career {
 
 }
 
-class Type extends Field {
+class Type extends Subject {
   
   public Type() {
     System.out.println("Type: Teacher");
