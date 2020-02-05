@@ -7,7 +7,7 @@ public class Main {
       Parent1 parent1 = new Parent1();
       Child2 child2 = new Child2();
       int x = parent1.getInt();
-      int y = child2.getVal();
+      int y = child2.getInt();
       System.out.println(x + "  " + y);
     }
 
@@ -40,7 +40,7 @@ class Child1 extends Parent1 {
 class Child2 {
   public int x = 5;
   public int y = 10;
-  public final int getVal() {
+  public final int getInt() {
     return y*x/2;
   } 
 
