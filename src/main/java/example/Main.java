@@ -6,7 +6,7 @@ public class Main {
     public static void main(String args[]){
       Parent1 parent1 = new Parent1();
       Child1 child1 = new Child1();
-      int x = parent1.getInt();
+      int x = parent1.getNum();
       int y = child1.getVal();
       System.out.println(x + "  " + y);
     }
@@ -18,7 +18,7 @@ class Parent1 {
 
   public int x = 5;
   public int y = 10;
-  public final int getInt() {
+  public int getNum() {
     where();
     return x*y;
   }
