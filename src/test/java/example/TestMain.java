@@ -29,8 +29,8 @@ public class TestMain {
 
   @Test
   public void assertValTest() {
-    Child1 child1 = new Child1();
-    int y = child1.getVal();
+    Child2 child2 = new Child2();
+    int y = child2.getVal();
     assertEquals(y, 25);
   }
 
