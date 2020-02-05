@@ -30,8 +30,8 @@ public class TestMain {
   @Test
   public void assertValTest() {
     Child1 child1 = new Child1();
-    int y = child1.getNum();
-    assertEquals(y, 25);
+    int y = child1.getVal();
+    assertEquals(y, 50);
   }
 
 
