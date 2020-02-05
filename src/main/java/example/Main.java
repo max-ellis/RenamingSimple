@@ -4,43 +4,39 @@ package example;
 public class Main {
 
     public static void main(String args[]){
-      Type teacher = new Type();
-      teacher.subject();
-      teacher.associate();
+      Parent1 parent1 = new Parent1();
+      Child1 child1 = new Child1();
+      int x = parent1.getInt();
+      int y = child1.getVal();
+      System.out.println(x + "  " + y);
     }
 
 }
 
-class Career {
-  
-  public Career() {
-    System.out.println("Class Professor");
-  }
-  
-  public static void associate() {
-    System.out.println("Associate Professor");
-  }
 
-}
+class Parent1 {
 
-class Subject extends Career {
-
-  public Subject() {
-    System.out.println("Class Field");
+  public int x = 5;
+  public int y = 10;
+  public final int getInt() {
+    where();
+    return x*y;
   }
 
-  public static void subject() {
-    System.out.println("Subject: Computer Science");
+  public void where() {
+    System.out.println("Here");
   }
 
 }
 
-class Type extends Subject {
-  
-  public Type() {
-    System.out.println("Type: Teacher");
+class Child1 extends Parent1 {
+  public final int getVal() {
+    return y*x/2;
   }
 
-
-
 }
+
+
+
+
+

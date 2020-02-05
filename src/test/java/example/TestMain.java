@@ -21,26 +21,17 @@ public class TestMain {
   }
 
   @Test
-  public void assertSubjectTest() {
-    Type.subject();
-    //assertEquals("Class Field\nType: Teacher\nSubject: Computer Science\n", content.toString());
-    assertEquals("Subject: Computer Science\n", content.toString());
+  public void assertIntTest() {
+    Parent1 parent1 = new Parent1();
+    int x = parent1.getInt();
+    assertEquals(x, 50);
   }
 
   @Test
-  public void assertAssociateTest() {
-    Type.associate();
-    //assertEquals("Class Professor\nClass Type\nAssociate Professor\n", content.toString());
-    assertEquals("Associate Professor\n", content.toString());
-  }
-  
-  @Test
-  public void assertAllTest() {
-    Type type = new Type();
-    type.subject();
-    type.associate();
-    //assertEquals("Class Professor\nClass Type\nAssociate Professor\n", content.toString());
-    assertEquals("Class Professor\nClass Field\nType: Teacher\nSubject: Computer Science\nAssociate Professor\n", content.toString());
+  public void assertValTest() {
+    Child1 child1 = new Child1();
+    int y = child1.getVal();
+    assertEquals(y, 25);
   }
 
 
