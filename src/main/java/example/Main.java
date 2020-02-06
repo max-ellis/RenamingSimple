@@ -7,7 +7,7 @@ public class Main {
       Parent1 parent1 = new Parent1();
       Child1 child1 = new Child1();
       int x = parent1.sendNum();
-      int y = child1.test();
+      int y = child1.sendNum();
       System.out.println(x + "  " + y);
     }
 
@@ -31,14 +31,10 @@ class Parent1 {
 
 class Child1 extends Parent1 {
 
-  public int test() {
-    return sendNum();
-  } 
-
   public int sendNum() {
-    return 0;
+    where();
+    return x*y;
   }
-
 }
 
 class Child2 {
