@@ -18,7 +18,7 @@ class A {
 }
 
 
-class B extends A {
+class newB extends A {
   void bar() {
     int x = 5 * num;
   }
@@ -26,7 +26,7 @@ class B extends A {
 }
 
 
-class C extends B {
+class C extends newB {
   void foobar() {
     int z = 10 * num;
   }
