@@ -10,25 +10,26 @@ public class Main {
 }
 
 class newA {
-  int y = 5;
+  int num = 5;
+
   void foo() {
-    int x = y;
+    int x = num;
   }
 
 }
 
 
-class B extends newA {
+class newB extends newA {
   void bar() {
-    int x = 5 * y;
+    int x = 5 * num;
   }
 
 }
 
 
-class newC extends B {
+class newC extends newB {
   void foobar() {
-    int z = 10 * y;
+    int z = 10 * num;
   }
 
 
