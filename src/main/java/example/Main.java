@@ -26,7 +26,7 @@ class B extends newA {
 }
 
 
-class C extends B {
+class newC extends B {
   void foobar() {
     int z = 10 * y;
   }
