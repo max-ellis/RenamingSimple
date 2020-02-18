@@ -15,6 +15,7 @@ public class TestMain {
   private final ByteArrayOutputStream content = new ByteArrayOutputStream();
   private final PrintStream originalOut = System.out;
 
+/*
   @Before
   public void setUpStream() {
     System.setOut(new PrintStream(content));
@@ -40,5 +41,6 @@ public class TestMain {
   public void restoreStream() {
     System.setOut(originalOut);
   }
+*/
 
 }
