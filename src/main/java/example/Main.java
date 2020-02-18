@@ -10,9 +10,9 @@ public class Main {
 }
 
 class A {
-  int y = 5;
+  int num = 5;
   void foo() {
-    int x = y;
+    int x = num;
   }
 
 }
@@ -20,7 +20,7 @@ class A {
 
 class B extends A {
   void bar() {
-    int x = 5 * y;
+    int x = 5 * num;
   }
 
 }
@@ -28,7 +28,7 @@ class B extends A {
 
 class C extends B {
   void foobar() {
-    int z = 10 * y;
+    int z = 10 * num;
   }
 
 
