@@ -29,7 +29,7 @@ class B extends A {
 
 class C extends B {
   void foobar() {
-    int z = 10 * num;
+    int z = 9 * num;
   }
 
 
