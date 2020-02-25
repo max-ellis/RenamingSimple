@@ -21,6 +21,7 @@ class A {
 
 class newB extends A {
   void bar() {
+	int a = 0;
     int x = 5 * num;
   }
 
