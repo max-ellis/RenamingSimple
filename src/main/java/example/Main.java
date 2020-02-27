@@ -11,7 +11,7 @@ public class Main {
 
 class A {
 
-  void bar() {
+  void foo() {
 	int x = 0;
 	int y = 0;
 	int z = x + y;
