@@ -31,7 +31,7 @@ class B extends A {
 }
 
 class C extends A {
-  void originalBar() {
+  void newBar() {
     foobar();
     int a = 0;
 	int b = 1;
