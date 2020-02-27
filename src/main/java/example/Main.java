@@ -11,7 +11,7 @@ public class Main {
 
 class A {
 
-  void foo() {
+  void foobar() {
 	int x = 0;
 	int y = 0;
 	int z = x + y;
@@ -25,7 +25,7 @@ class A {
 
 class B extends A {
   void bar() {
-	foo();
+	foobar();
   }
 
 }
