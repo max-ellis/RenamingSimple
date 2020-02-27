@@ -9,7 +9,7 @@ public class Main {
 
 }
 
-class A {
+class newA {
 
   void foo() {
 	int x = 0;
@@ -23,14 +23,14 @@ class A {
 }
 
 
-class B extends A {
+class B extends newA {
   void originalBar() {
 	foo();
   }
 
 }
 
-class C extends A {
+class C extends newA {
   void originalBar() {
     foo();
     int a = 0;
@@ -42,7 +42,7 @@ class C extends A {
 
 }
 
-class D extends A {
+class D extends newA {
   void originalBar() {
     foo();
     int a = 0;
