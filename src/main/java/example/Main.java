@@ -9,18 +9,23 @@ public class Main {
 
 }
 
-class newA {
+class A {
 
-  void foobar() {
+  void bar() {
 	int x = 0;
+	int y = 0;
+	int z = x + y;
+	System.out.println(z);
+	System.out.println(y);
+	System.out.println(x);
   }
 
 }
 
 
-class B extends newA {
+class B extends A {
   void bar() {
-	foobar();
+	foo();
   }
 
 }
