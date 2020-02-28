@@ -9,20 +9,13 @@ public class Main {
 
 }
 
-class newA {
+class A {
 
   void foobar() {
 	int x = 0;
 	int y = 0;
 	int z = x + y;
-	System.out.println(z);
-	System.out.println(y);
-	System.out.println(x);
 	int a = add(x,y);
-	int b = mult(x,y);
-	print(a);
-	print(b);
-	print(z);
   }
 	
   int add(int a, int b) {
@@ -31,28 +24,17 @@ class newA {
 
   }
 
-  int mult(int a, int b) {
-	return a * b;
-  }
-
-  void print(int a) {
-	System.out.println(a);
-
-  }
-
-
-
 }
 
 
-class B extends newA {
+class B extends A {
   void originalBar() {
 	foobar();
   }
 
 }
 
-class C extends newA {
+class C extends A {
   void originalBar() {
     foobar();
     int a = 0;
@@ -64,7 +46,7 @@ class C extends newA {
 
 }
 
-class D extends newA {
+class D extends A {
   void originalBar() {
     foobar();
     int a = 0;
