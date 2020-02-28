@@ -9,9 +9,9 @@ public class Main {
 
 }
 
-class An {
+class A {
 
-  void foobar() {
+  void foo() {
 	int x = 0;
 	int y = 0;
 	int z = x + y;
@@ -27,16 +27,16 @@ class An {
 }
 
 
-class B extends An {
+class B extends n {
   void originalBar() {
-	foobar();
+	foo();
   }
 
 }
 
-class C extends An {
+class C extends n {
   void originalBar() {
-    foobar();
+    foo();
     int a = 0;
 	int b = 1;
 	int c = 2;
@@ -46,9 +46,9 @@ class C extends An {
 
 }
 
-class D extends An {
+class D extends n {
   void originalBar() {
-    foobar();
+    foo();
     int a = 0;
 	int b = 1;
 	int c = 2;
