@@ -27,14 +27,14 @@ class A {
 }
 
 
-class B extends n {
+class B extends A {
   void originalBar() {
 	foo();
   }
 
 }
 
-class C extends n {
+class C extends A {
   void originalBar() {
     foo();
     int a = 0;
@@ -46,7 +46,7 @@ class C extends n {
 
 }
 
-class D extends n {
+class D extends A {
   void originalBar() {
     foo();
     int a = 0;
