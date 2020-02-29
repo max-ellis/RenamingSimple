@@ -15,10 +15,10 @@ class A {
 	int x = 0;
 	int y = 0;
 	int num = x + y;
-	int a = add(x,y);
+	int a = addNum(x,y);
   }
 
-  int add(int a, int b) {
+  int addNum(int a, int b) {
 
 	System.out.println("Will this get deleted?");
 	return a + b;
