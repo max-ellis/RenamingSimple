@@ -27,7 +27,7 @@ class A {
 }
 
 
-class B extends A {
+class newB extends A {
   void originalBar() {
 	foo();
   }
