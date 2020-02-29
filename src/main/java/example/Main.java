@@ -14,7 +14,7 @@ class A {
   void foobar() {
 	int x = 0;
 	int y = 0;
-	int z = x + y;
+	int num = x + y;
 	int a = add(x,y);
   }
 	
