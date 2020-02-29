@@ -27,14 +27,14 @@ class A {
 }
 
 
-class B extends newA {
+class B extends A {
   void originalBar() {
 	foo();
   }
 
 }
 
-class C extends newA {
+class C extends A {
   void originalBar() {
     foo();
     int a = 0;
@@ -46,7 +46,7 @@ class C extends newA {
 
 }
 
-class D extends newA {
+class D extends A {
   void originalBar() {
     foo();
     int a = 0;
