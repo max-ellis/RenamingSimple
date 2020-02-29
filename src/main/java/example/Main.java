@@ -11,10 +11,11 @@ public class Main {
 
 class A {
 
+<<<<<<< HEAD
   void foobar() {
-	int x = 0;
+	int value1 = 0;
 	int y = 0;
-	int num = x + y;
+	int num = value1 + y;
 	int a = add(x,y);
   }
 
