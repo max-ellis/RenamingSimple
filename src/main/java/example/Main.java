@@ -11,16 +11,18 @@ public class Main {
 
 class A {
 
+  int z = 5;
+
   void foo() {
-	int value1 = 0;
+	int x = 0;
 	int y = 0;
 	int num = value1 + y;
-	int a = addNum(value1,y);
+	int a = addNum(x,y);
   }
 
   int addNum(int a, int b) {
 
-	int c = a + b;
+	int c = a + b + z;
 	System.out.println(a);
 	System.out.println(b);
 	System.out.println(c);
@@ -35,6 +37,7 @@ class A {
 class B extends A {
   void originalBar() {
 	foo();
+	int a = z;
   }
 
 }
@@ -47,6 +50,7 @@ class C extends A {
 	int c = 2;
 	int d = 3;
 	int f = 4;
+	int g = z*z;
   }
 
 }
@@ -59,6 +63,7 @@ class D extends A {
 	int c = 2;
 	int d = 3;
 	int e = 5;
+	int l = z+z*z;
   }
 
 }
