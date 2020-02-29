@@ -9,22 +9,18 @@ public class Main {
 
 }
 
-class newA {
+class A {
 
   void foo() {
 	int x = 0;
 	int y = 0;
 	int num = x + y;
-	int a = addNum(x,y);
+	int a = add(x,y);
   }
 
-  int addNum(int a, int b) {
+  int add(int a, int b) {
 
-	int c = a + b;
-	System.out.println(a);
-	System.out.println(b);
-	System.out.println(c);
-	return c;
+	return a + b;
 
   }
 
@@ -32,14 +28,14 @@ class newA {
 
 
 
-class B extends newA {
+class B extends A {
   void originalBar() {
 	foo();
   }
 
 }
 
-class C extends newA {
+class C extends A {
   void originalBar() {
     foo();
     int a = 0;
@@ -51,7 +47,7 @@ class C extends newA {
 
 }
 
-class D extends newA {
+class D extends A {
   void originalBar() {
     foo();
     int a = 0;
