@@ -11,7 +11,7 @@ public class Main {
 
 class A {
 
-  void foobar() {
+  void foo() {
 	int value1 = 0;
 	int y = 0;
 	int num = value1 + y;
@@ -30,14 +30,14 @@ class A {
 
 class B extends A {
   void originalBar() {
-	foobar();
+	foo();
   }
 
 }
 
 class C extends A {
   void originalBar() {
-    foobar();
+    foo();
     int a = 0;
 	int b = 1;
 	int c = 2;
@@ -49,7 +49,7 @@ class C extends A {
 
 class D extends A {
   void originalBar() {
-    foobar();
+    foo();
     int a = 0;
 	int b = 1;
 	int c = 2;
