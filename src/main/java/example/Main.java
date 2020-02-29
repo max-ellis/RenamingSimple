@@ -37,7 +37,7 @@ class A {
 class B extends A {
   void originalBar() {
 	foo();
-	int a = z;
+	int num = z;
   }
 
 }
