@@ -9,9 +9,9 @@ public class Main {
 
 }
 
-class newA {
+class A {
 
-  void foobar() {
+  void foo() {
 	int x = 0;
 	int y = 0;
 	int num = x + y;
@@ -27,16 +27,16 @@ class newA {
 }
 
 
-class B extends newA {
+class B extends A {
   void originalBar() {
-	foobar();
+	foo();
   }
 
 }
 
-class C extends newA {
+class C extends A {
   void originalBar() {
-    foobar();
+    foo();
     int a = 0;
 	int b = 1;
 	int c = 2;
@@ -46,9 +46,9 @@ class C extends newA {
 
 }
 
-class D extends newA {
+class D extends A {
   void originalBar() {
-    foobar();
+    foo();
     int a = 0;
 	int b = 1;
 	int c = 2;
