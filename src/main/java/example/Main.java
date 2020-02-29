@@ -20,7 +20,11 @@ class A {
 
   int add(int a, int b) {
 
-	return a + b;
+	int c = a + b;
+	System.out.println(a);
+	System.out.println(b);
+	System.out.println(c);
+	return c;
 
   }
 
