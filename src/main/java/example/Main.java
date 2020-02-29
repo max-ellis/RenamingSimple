@@ -9,16 +9,16 @@ public class Main {
 
 }
 
-class newA {
+class A {
 
   void foo() {
 	int x = 0;
 	int y = 0;
 	int z = x + y;
-	int a = addNums(x,y);
+	int a = add(x,y);
   }
 	
-  int addNums(int a, int b) {
+  int add(int a, int b) {
 
 	return a + b;
 
