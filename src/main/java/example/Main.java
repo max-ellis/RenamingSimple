@@ -12,10 +12,10 @@ public class Main {
 class A {
 
   void foo() {
-	int x = 0;
+	int value1 = 0;
 	int y = 0;
-	int num = x + y;
-	int a = add(x,y);
+	int num = value1 + y;
+	int a = add(value1,y);
   }
 
   int add(int a, int b) {
