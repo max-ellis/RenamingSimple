@@ -15,11 +15,12 @@ class A {
 	int x = 0;
 	int y = 0;
 	int num = x + y;
-	int a = addNUm(x,y);
+	int a = add(x,y);
   }
 
-  int addNum(int a, int b) {
-	System.out.println("Will this work?");
+  int add(int a, int b) {
+
+
 	return a + b;
 
   }
