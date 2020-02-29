@@ -15,10 +15,10 @@ class A {
 	int x = 0;
 	int y = 0;
 	int z = x + y;
-	int a = add(x,y);
+	int a = addNums(x,y);
   }
 	
-  int add(int a, int b) {
+  int addNums(int a, int b) {
 
 	return a + b;
 
