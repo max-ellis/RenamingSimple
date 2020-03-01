@@ -16,12 +16,23 @@ class A {
   void foo() {
 	int x = 0;
 	int y = 0;
+	System.out.println(x);
+	System.out.println(y);
+	x = 1;
+	y += x;
 	int num = x + y;
 	int a = addNum(x,y);
   }
 
   int addNum(int a, int b) {
 
+	int c = a + b;
+	System.out.println(c);
+	System.out.println(a);
+	a = a * a;
+	b = b * b;
+	c = c * b;
+	b = c;
 	return a + b;
 
   }
