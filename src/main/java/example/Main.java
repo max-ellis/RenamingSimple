@@ -22,7 +22,7 @@ class A {
 
   int addNum(int a, int b) {
 
-	return c;
+	return a + b;
 
   }
 
