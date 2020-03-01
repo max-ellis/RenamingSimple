@@ -16,7 +16,7 @@ class A {
   void foo() {
 	int x = 0;
 	int y = 0;
-	int num = value1 + y;
+	int num = x + y;
 	int a = addNum(x,y);
   }
 
