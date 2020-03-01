@@ -22,10 +22,6 @@ class A {
 
   int addNum(int a, int b) {
 
-	int c = a + b + newz;
-	System.out.println(a);
-	System.out.println(b);
-	System.out.println(c);
 	return c;
 
   }
