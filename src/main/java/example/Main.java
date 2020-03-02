@@ -11,8 +11,8 @@ public class Main {
 
 class A {
 
-  int z = 5;
-
+  int variable1 = 5;
+  int variable2 = 10;
   void foo() {
 	int value = 0;
 	int newY = 0;
@@ -21,10 +21,10 @@ class A {
 	value = 1;
 	newY += value;
 	int num = value + newY;
-	int a = addNum(value,newY);
+	int a = add(variable1,variable2);
   }
 
-  int addNum(int a, int b) {
+  int add(int a, int b) {
 
 	int c = a + b;
 	System.out.println(c);
