@@ -9,7 +9,7 @@ public class Main {
 
 }
 
-class Aclass {
+class Xclass {
 
   int global1 = 5;
   int global2 = 10;
@@ -42,7 +42,7 @@ class Aclass {
 
 
 
-class B extends Aclass {
+class B extends Xclass {
   void originalBar() {
 	foobar();
 	int num = global1;
@@ -50,7 +50,7 @@ class B extends Aclass {
 
 }
 
-class C extends Aclass {
+class C extends Xclass {
   void originalBar() {
     foobar();
     int a = 0;
