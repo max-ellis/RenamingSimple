@@ -11,7 +11,7 @@ public class Main {
 
 class A {
 
-  int variable1 = 5;
+  int variable = 5;
   int variable2 = 10;
   void foo() {
 	int value = 0;
@@ -21,7 +21,7 @@ class A {
 	value = 1;
 	newY += value;
 	int num = value + newY;
-	int a = addN(variable1,variable2);
+	int a = addN(variable,variable2);
   }
 
   int addN(int a, int b) {
