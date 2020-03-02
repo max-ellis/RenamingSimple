@@ -9,22 +9,23 @@ public class Main {
 
 }
 
-class A {
+class Aclass {
 
-  int variable = 5;
-  int variable2 = 10;
+  int global1 = 5;
+  int global2 = 10;
+
   void foo() {
-	int value = 0;
-	int newY = 0;
-	System.out.println(value);
-	System.out.println(newY);
-	value = 1;
-	newY += value;
-	int num = value + newY;
-	int a = addN(variable,variable2);
+	int x = 0;
+	int y= 0;
+	System.out.println(x);
+	System.out.println(y);
+	x = 1;
+	y += x;
+	int num = x + y;
+	int a = add(x,y);
   }
 
-  int addN(int a, int b) {
+  int add(int a, int b) {
 
 	int c = a + b;
 	System.out.println(c);
@@ -41,15 +42,15 @@ class A {
 
 
 
-class B extends A {
+class B extends Aclass {
   void originalBar() {
 	foo();
-	int num = z;
+	int num = global1;
   }
 
 }
 
-class C extends A {
+class C extends Aclass {
   void originalBar() {
     foo();
     int a = 0;
@@ -57,24 +58,7 @@ class C extends A {
 	int c = 2;
 	int d = 3;
 	int f = 4;
-	int g = z*z;
+	int g = global1*global2;
   }
 
 }
-
-class D extends A {
-  void originalBar() {
-    foo();
-    int a = 0;
-	int b = 1;
-	int c = 2;
-	int d = 3;
-	int e = 5;
-	int l = z+z*z;
-  }
-
-}
-
-
-
-
