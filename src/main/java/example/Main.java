@@ -15,13 +15,13 @@ class A {
 
   void foo() {
 	int x = 0;
-	int y = 0;
+	int newY = 0;
 	System.out.println(x);
-	System.out.println(y);
+	System.out.println(newY);
 	x = 1;
-	y += x;
-	int num = x + y;
-	int a = addNum(x,y);
+	newY += x;
+	int num = x + newY;
+	int a = addNum(x,newY);
   }
 
   int addNum(int a, int b) {
