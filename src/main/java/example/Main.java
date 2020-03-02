@@ -21,10 +21,10 @@ class A {
 	value = 1;
 	newY += value;
 	int num = value + newY;
-	int a = add(variable1,variable2);
+	int a = addN(variable1,variable2);
   }
 
-  int add(int a, int b) {
+  int addN(int a, int b) {
 
 	int c = a + b;
 	System.out.println(c);
