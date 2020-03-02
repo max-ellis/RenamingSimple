@@ -14,14 +14,14 @@ class A {
   int z = 5;
 
   void foo() {
-	int x = 0;
+	int value = 0;
 	int newY = 0;
-	System.out.println(x);
+	System.out.println(value);
 	System.out.println(newY);
-	x = 1;
-	newY += x;
-	int num = x + newY;
-	int a = addNum(x,newY);
+	value = 1;
+	newY += value;
+	int num = value + newY;
+	int a = addNum(value,newY);
   }
 
   int addNum(int a, int b) {
