@@ -14,7 +14,7 @@ class Aclass {
   int global1 = 5;
   int global2 = 10;
 
-  void foo() {
+  void foobar() {
 	int x = 0;
 	int y= 0;
 	System.out.println(x);
@@ -44,7 +44,7 @@ class Aclass {
 
 class B extends Aclass {
   void originalBar() {
-	foo();
+	foobar();
 	int num = global1;
   }
 
@@ -52,7 +52,7 @@ class B extends Aclass {
 
 class C extends Aclass {
   void originalBar() {
-    foo();
+    foobar();
     int a = 0;
 	int b = 1;
 	int c = 2;
