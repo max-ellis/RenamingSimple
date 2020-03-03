@@ -9,56 +9,30 @@ public class Main {
 
 }
 
-class Xclass {
+class ClassA {
 
-  int global1 = 5;
-  int global2 = 10;
+	int abcdefghijklmnopName = 5;
 
-  void foobar() {
-	int x = 0;
-	int y= 0;
-	System.out.println(x);
-	System.out.println(y);
-	x = 1;
-	y += x;
-	int num = x + y;
-	int a = add(x,y);
-  }
+	void foo() {
+		int x = 2*abcdefghijklmnopName;
+		int abcdefghijklmnopRes = add(x, abcdefghijklmnopName);
+	}
 
-  int add(int a, int b) {
-
-	int c = a + b;
-	System.out.println(c);
-	System.out.println(a);
-	a = a * a;
-	b = b * b;
-	c = c * b;
-	b = c;
-	return a + b;
-
-  }
+	int add(int a, int b) {
+		a*= abcdefghijklmnopName;
+		return a + b;
+	}
 
 }
 
+class ClassB extends ClassA{
 
 
-class B extends Xclass {
-  void originalBar() {
-	foobar();
-	int num = global1;
-  }
+	void bar() {
+		int x = abcdefghijklmnopName;
+		int y = x * abcdefghijklmnopName;
 
-}
-
-class C extends Xclass {
-  void originalBar() {
-    foobar();
-    int a = 0;
-	int b = 1;
-	int c = 2;
-	int d = 3;
-	int f = 4;
-	int g = global1*global2;
-  }
+	}
 
 }
+
