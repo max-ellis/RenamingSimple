@@ -9,36 +9,28 @@ public class Main {
 
 }
 
-class ClassA {
+class A {
 
-	int abcdefghijklmnopNames = 5;
+	int alphaZ;
 
 	void foo() {
-		int x = 2*abcdefghijklmnopNames;
-		int abcdefghijklmnopRes = add(x, abcdefghijklmnopNames);
-	}
+	
+	int a = alphaZ;
+	int b = alphaZ + 1;
+	int c = alphaZ + 2;
 
-	int add(int a, int b) {
-		a*= abcdefghijklmnopNames;
-		return a + b;
 	}
 
 }
 
-class ClassB extends ClassA{
-
+class B extends A {
 
 	void bar() {
-		int abcdefghijklmnoPName = 0;
-		System.out.println(abcdefghijklmnoPName);
-		int x = abcdefghijklmnopNames;
-		int y = x * abcdefghijklmnopNames;
+	
+		int a = alphaZ;
+		int b = alphaZ * 20;
+		int z = alphaZ + alphaZ;
 
-		int a = abcdefghijklmnoPName + abcdefghijklmnopNames;
-
-
-		System.out.println(abcdefghijklmnopNames);
 	}
 
 }
-
