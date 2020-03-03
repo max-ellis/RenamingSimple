@@ -11,13 +11,13 @@ public class Main {
 
 class A {
 
-	int alphaZ;
+	int alpha;
 
 	void foo() {
 	
-	int a = alphaZ;
-	int b = alphaZ + 1;
-	int c = alphaZ + 2;
+	int a = alpha;
+	int b = alpha + 1;
+	int c = alpha + 2;
 
 	}
 
@@ -27,9 +27,9 @@ class B extends A {
 
 	void bar() {
 	
-		int a = alphaZ;
-		int b = alphaZ * 20;
-		int z = alphaZ + alphaZ;
+		int a = alpha;
+		int b = alpha * 20;
+		int z = alpha + alpha;
 
 	}
 
