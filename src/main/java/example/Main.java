@@ -29,9 +29,15 @@ class ClassB extends ClassA{
 
 
 	void bar() {
+		int abcdefghijklmnoPName = 0;
 		int x = abcdefghijklmnopName;
 		int y = x * abcdefghijklmnopName;
+		System.out.println(abcdefghijklmnoPName);
 
+		int a = abcdefghijklmnoPName + abcdefghijklmnopName;
+
+
+		System.out.println(abcdefghijklmnopName);
 	}
 
 }
