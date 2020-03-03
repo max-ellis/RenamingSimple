@@ -31,6 +31,9 @@ class B extends A {
 		int b = alphaZ * 20;
 		int z = alphaZ + alphaZ;
 
+		System.out.println(alphaZ);
+
+
 	}
 
 }
