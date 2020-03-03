@@ -11,15 +11,15 @@ public class Main {
 
 class ClassA {
 
-	int abcdefghijklmnopName = 5;
+	int abcdefghijklmnopNames = 5;
 
 	void foo() {
-		int x = 2*abcdefghijklmnopName;
-		int abcdefghijklmnopRes = add(x, abcdefghijklmnopName);
+		int x = 2*abcdefghijklmnopNames;
+		int abcdefghijklmnopRes = add(x, abcdefghijklmnopNames);
 	}
 
 	int add(int a, int b) {
-		a*= abcdefghijklmnopName;
+		a*= abcdefghijklmnopNames;
 		return a + b;
 	}
 
@@ -30,14 +30,14 @@ class ClassB extends ClassA{
 
 	void bar() {
 		int abcdefghijklmnoPName = 0;
-		int x = abcdefghijklmnopName;
-		int y = x * abcdefghijklmnopName;
 		System.out.println(abcdefghijklmnoPName);
+		int x = abcdefghijklmnopNames;
+		int y = x * abcdefghijklmnopNames;
 
-		int a = abcdefghijklmnoPName + abcdefghijklmnopName;
+		int a = abcdefghijklmnoPName + abcdefghijklmnopNames;
 
 
-		System.out.println(abcdefghijklmnopName);
+		System.out.println(abcdefghijklmnopNames);
 	}
 
 }
