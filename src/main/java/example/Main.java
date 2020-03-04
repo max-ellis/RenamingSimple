@@ -20,7 +20,7 @@ class A {
 
 	B b = new B();
 	
-	b.bar();
+	b.barz();
 
 	}
 
@@ -28,7 +28,7 @@ class A {
 
 class B extends A {
 
-	void bar() {
+	void barz() {
 	
 		int a = alpha;
 		int b = alpha * 20;
