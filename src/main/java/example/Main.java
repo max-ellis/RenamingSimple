@@ -16,8 +16,11 @@ class A {
 	void foo() {
 	
 	int a = alpha;
-	int b = alpha + 1;
 	int c = alpha + 2;
+
+	B b = new B();
+	
+	b.bar();
 
 	}
 
@@ -31,7 +34,7 @@ class B extends A {
 		int b = alpha * 20;
 		int z = alpha + alpha;
 
-		System.out.println(alphaZ);
+		System.out.println(alpha);
 
 
 	}
