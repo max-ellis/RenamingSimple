@@ -13,7 +13,7 @@ class A {
 
 	int alpha;
 
-	void foo() {
+	void foobar() {
 	
 	int a = alpha;
 	int c = alpha + 2;
