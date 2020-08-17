@@ -12,16 +12,15 @@ public class main {
 	x = x*x;
         graph(x, y);
     }
-
-    private static int getIntX(){
-        return 5;
-    }
-
-    private static int getIntY(){
-        return 4;
-    }
-
     private static void graph(int a, int b){
         System.out.println(a*b);
     }
+}
+
+class A {
+
+    void foo() {
+	System.out.println("This is a rename class and method example");
+    }
+
 }
