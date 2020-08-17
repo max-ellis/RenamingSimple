@@ -17,9 +17,9 @@ public class main {
     }
 }
 
-class B {
+class A {
 
-    void bar() {
+    void foo() {
 	System.out.println("This is a rename class and method example");
     }
 
