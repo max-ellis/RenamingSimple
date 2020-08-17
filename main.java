@@ -19,7 +19,7 @@ public class main {
 
 class B {
 
-    void foo() {
+    void bar() {
 	System.out.println("This is a rename class and method example");
     }
 
