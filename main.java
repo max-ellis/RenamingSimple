@@ -17,9 +17,9 @@ public class main {
     }
 }
 
-class exampleClass1 {
+class exampleClass {
 
-    void exampleMethodBar() {
+    void exampleMethodFoo() {
 	int x = 5;
 	int y = 10;
 	for(int z = 0; z < x; z++) {
