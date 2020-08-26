@@ -17,9 +17,14 @@ public class main {
     }
 }
 
-class A {
+class exampleClass {
 
-    void foo() {
+    void exampleMethodFoo() {
+	int x = 5;
+	int y = 10;
+	for(int z = 0; z < x; z++) {
+		System.out.println(y * z);
+	}
 	System.out.println("This is a rename class and method example");
     }
 
