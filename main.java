@@ -17,9 +17,14 @@ public class main {
     }
 }
 
-class exampleClass1 {
+class exampleClass {
 
-    void exampleMethodFoo1() {
+    void bar() {
+	String code = "Code here";
+	System.out.println(code);
+    }
+
+    void exampleMethodFoo() {
 	int x = 5;
 	int y = 10;
 	for(int z = 0; z < x; z++) {
