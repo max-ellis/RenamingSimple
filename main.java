@@ -17,7 +17,7 @@ public class main {
     }
 }
 
-class exampleClass1 {
+class exampleClass {
 
     void foobar() {
 	String code = "Code here";
