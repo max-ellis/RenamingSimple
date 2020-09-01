@@ -6,7 +6,7 @@ public class main {
         graph();
     }
 
-    private static void foo(){
+    private static void method(){
         int x = getIntX();
         int y = getIntY();
 	x = x*y;;
@@ -19,7 +19,7 @@ public class main {
 
 class exampleClass1 {
 
-    void foo() {
+    void foobar() {
 	String code = "Code here";
 	System.out.println(code);
     }
