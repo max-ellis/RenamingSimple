@@ -3,7 +3,7 @@
 public class main {
 
     public static void main(String args[]){
-        mult();
+        graph();
     }
 
     private static void foo(){
