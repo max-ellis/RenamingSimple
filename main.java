@@ -42,7 +42,7 @@ class subClass extends superClass {
 	System.out.println(code);
     }
 
-    void method() {
+    void methodbar() {
 	String words = "This is in no way related to bar above";
 	System.out.println(words);
     }
