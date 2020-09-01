@@ -24,7 +24,7 @@ class superClass {
 	System.out.println(code);
     }
 
-    void bar() {
+    void methodbar() {
 	int x = 5;
 	int y = 10;
 	for(int z = 0; z < x; z++) {
