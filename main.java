@@ -12,7 +12,7 @@ public class main {
 	x = x*y;;
         graph(x, y);
     }
-    private static void graph(int a, int b){
+    private static void method(int a, int b){
         System.out.println(a*b);
     }
 }
