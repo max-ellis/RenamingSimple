@@ -6,7 +6,7 @@ public class main {
         graph();
     }
 
-    private static void foo(){
+    private static void method(){
         int x = getIntX();
         int y = getIntY();
 	x = x*y;;
