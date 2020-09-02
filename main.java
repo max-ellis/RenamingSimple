@@ -37,7 +37,7 @@ class superClass {
 
 class subClass extends superClass {
 
-    void foo() {
+    void foobar() {
 	String code = "subclass code here";
 	System.out.println(code);
     }
