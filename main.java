@@ -19,7 +19,7 @@ public class main {
 
 class superClass {
 
-    void foo() {
+    void foobar() {
 	String code = "Code here";
 	System.out.println(code);
     }
