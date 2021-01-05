@@ -3,14 +3,14 @@
 public class main {
 
     public static void main(String args[]){
-        graph();
+        method();
     }
 
     private static void method(){
         int x = getIntX();
         int y = getIntY();
 	x = x*y;;
-        graph(x, y);
+        method(x, y);
     }
     private static void method(int a, int b){
         System.out.println(a*b);
