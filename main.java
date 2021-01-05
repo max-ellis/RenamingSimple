@@ -3,10 +3,10 @@
 public class main {
 
     public static void main(String args[]){
-        method();
+        newMethod();
     }
 
-    private static void method(){
+    private static void newMethod(){
         int x = getIntX();
         int y = getIntY();
 	x = x*y;;
