@@ -10,9 +10,9 @@ public class main {
         int x = getIntX();
         int y = getIntY();
 	x = x*y;;
-        method(x, y);
+        otherMethod(x, y);
     }
-    private static void method(int a, int b){
+    private static void otherMethod(int a, int b){
         System.out.println(a*b);
     }
 }
