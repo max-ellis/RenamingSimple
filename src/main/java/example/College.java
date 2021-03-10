@@ -1,11 +1,11 @@
 package example;
 
-class University extends School {
+class College extends School {
         String name;
         int students;
 	String type;
 
-        public University(String name, int students) {
+        public College(String name, int students) {
 			super(name, students);
             this.type = "University";
         }
