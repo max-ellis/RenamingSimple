@@ -1,1 +1,1 @@
-# Simple renaming conflict
+# Example conflict
