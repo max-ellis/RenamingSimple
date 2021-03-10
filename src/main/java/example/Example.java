@@ -7,11 +7,11 @@ public class Example {
 	System.out.println("Example for nested refactorings across commits");
 	String name = "RefMerge University";
 	University university = new University(name, 50);
-	int students = Example.getNumberOfStudents(university);
+	int students = Example.getStudents(university);
 
     }
 
-    public static int getNumberOfStudents(University school) {
+    public static int getStudents(University school) {
 	System.out.println("Main will be renamed in the first commit and this will be renamed to getStudents in the third commit");
 	return school.getNumberOfStudents();
     }
