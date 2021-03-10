@@ -1,12 +1,5 @@
 package example;
 
-import example.Main;
-
-import static org.junit.Assert.*;
-import org.junit.Test;
-import org.junit.After;
-import org.junit.Before; 
-
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

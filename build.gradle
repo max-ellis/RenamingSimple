@@ -13,7 +13,7 @@ apply plugin: 'java'
 
 jar {
   manifest {
-    attributes('Main-Class': 'example.Main')
+    attributes('Main-Class': 'example.Example')
   }
 }
 
