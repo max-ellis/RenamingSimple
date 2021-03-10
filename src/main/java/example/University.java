@@ -1,6 +1,6 @@
 package example;
 
-class University extends School {
+class University extends Institution {
         String name;
         int students;
 	String type;

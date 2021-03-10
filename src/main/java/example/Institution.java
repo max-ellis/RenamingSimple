@@ -1,15 +1,15 @@
 package example;
 
-public class School {
+public class Institution {
 	String name;
 	int students;
 
-	public School(String name, int students) {
+	public Institution(String name, int students) {
 		this.name = name;
 		this.students = students;
 	}
 
-	public int method1() {
+	public int method2() {
 	    System.out.println("This will be renamed second");
 	    return students - 15;
 	}
