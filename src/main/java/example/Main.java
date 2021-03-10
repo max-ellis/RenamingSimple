@@ -4,39 +4,18 @@ package example;
 public class Main {
 
     public static void main(String args[]){
-      
+	System.out.println("Example for nested refactorings across commits");
+	String name = "RefMerge University";
+	University university = new University(name, 50);
+	int students = Main.getNumberOfStudents(university);
+
+    }
+
+    public static int getNumberOfStudents(University school) {
+	System.out.println("Main will be renamed in the first commit and this will be renamed to getStudents in the third commit");
+	return school.getNumberOfStudents();
     }
 
 }
 
-class A {
 
-	int alpha;
-
-	void foo() {
-	
-	int a = alpha;
-	int c = alpha + 2;
-
-	B b = new B();
-	
-	b.barz();
-
-	}
-
-}
-
-class B extends A {
-
-	void barz() {
-	
-		int a = alpha;
-		int b = alpha * 20;
-		int z = alpha + alpha;
-
-		System.out.println(alpha);
-
-
-	}
-
-}
