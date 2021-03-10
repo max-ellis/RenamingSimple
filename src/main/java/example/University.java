@@ -1,16 +1,16 @@
 package example;
 
-class Place extends School {
+class University extends School {
         String name;
         int students;
 	String type;
 
-        public Place(String name, int students) {
+        public University(String name, int students) {
 			super(name, students);
             this.type = "University";
         }
 
-	public void info() {
+	public void newInfo() {
 	    System.out.println("University will be renamed to College in the first commit");
 	    System.out.println("College will be renamed to Place in the second commit");
 	}
