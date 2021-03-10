@@ -27,7 +27,7 @@ class Place extends School {
 	    return this.students;
 	}
 
-	public void foo() {
+	public void bar() {
 	    System.out.println("This will be renamed in the third commit");
 	}
 
