@@ -12,16 +12,17 @@ public class main {
 	x=x*x;
         print(x, y);
     }
+}
 
-    private static int getX(){
-        return 5;
+class exampleClass1 {
+
+    void exampleMethodBar() {
+	int x = 5;
+	int y = 10;
+	for(int z = 0; z < x; z++) {
+		System.out.println(y * z);
+	}
+	System.out.println("This is a rename class and method example");
     }
 
-    private static int getY(){
-        return 4;
-    }
-
-    private static void print(int a, int b){
-        System.out.println(a*b);
-    }
 }
