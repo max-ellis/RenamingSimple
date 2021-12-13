@@ -8,10 +8,16 @@ public class main {
 
     private static void mult(){
         int x = getX();
+	extracted();
+    }
+
+    private void extracted() {
         int y = getY();
 	x=x*x;
         print(x, y);
+
     }
+
 }
 
 class exampleClass1 {
