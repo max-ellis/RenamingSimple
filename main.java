@@ -9,8 +9,8 @@ public class main {
     private static void mult(){
         int x = getX();
 	y.getY();
-	x=x*x;
-        print(x, y);
+	x=x*y;
+        print(x, z);
     }
 }
 
