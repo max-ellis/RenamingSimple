@@ -10,7 +10,7 @@ class University extends Institution {
             this.type = "University";
         }
 
-	public void info() {
+	public void newInfo() {
 	    System.out.println("University will be renamed to College in the first commit");
 	    System.out.println("College will be renamed to Place in the second commit");
 	}
@@ -27,7 +27,7 @@ class University extends Institution {
 	    return this.students;
 	}
 
-	public void foo() {
+	public void bar() {
 	    System.out.println("This will be renamed in the third commit");
 	}
 
