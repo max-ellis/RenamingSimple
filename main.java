@@ -1,7 +1,7 @@
-public class Scanner {
+public class Listener {
 	public void addListener(O obj) {
-		notNull(obj);
-		validate(obj);
+		obj.notNull();
+		obj.validate();
 		listeners.add(obj.getListener());
 	}
 }
